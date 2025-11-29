@@ -2,14 +2,11 @@
   "name": "vasu-car-travels",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sravan-yandapalli.github.io/vasucar",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "predeploy": "next build",
-    "deploy": "gh-pages -d out"
+    "lint": "eslint"
   },
   "dependencies": {
     "next": "16.0.5",
