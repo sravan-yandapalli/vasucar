@@ -1,0 +1,13 @@
+:HL["/vasucar/_next/static/chunks/7f47c46c2b8ae37d.css","style"]
+:HL["/gray.png","image"]
+:HL["/white.png","image"]
+:HL["/black.png","image"]
+:HL["/fam.png","image"]
+:HL["/tax.png","image"]
+:HL["/ac.png","image"]
+:HL["/lug.png","image"]
+:HL["/call.svg","image"]
+:HL["/bg.jpg","image"]
+:HL["/LOGO.png","image"]
+:HL["/Name.svg","image"]
+0:{"buildId":"bXskJse0cHJdNAtURnmYC","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
