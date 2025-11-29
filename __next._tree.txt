@@ -1,4 +1,4 @@
-:HL["/vasucar/_next/static/chunks/7f47c46c2b8ae37d.css","style"]
+:HL["/vasucar/_next/static/chunks/ca2e18e2dfc9e97e.css","style"]
 :HL["/gray.png","image"]
 :HL["/white.png","image"]
 :HL["/black.png","image"]
@@ -10,4 +10,4 @@
 :HL["/bg.jpg","image"]
 :HL["/LOGO.png","image"]
 :HL["/Name.svg","image"]
-0:{"buildId":"fpNvy-pfVp7pFnxOi0fVS","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"LQzg3el5Y-zq4ZnyB7fOv","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
