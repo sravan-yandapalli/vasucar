@@ -1,88 +1,108 @@
-// app/layout.js
+// app/layout.tsx
 import "./globals.css";
+import type { JSX, ReactNode } from "react";
 
 export const metadata = {
   metadataBase: new URL("https://cartravelsongole.in"),
+
   title: {
-    default: "Vasu Car Travels Ongole | Car Travels in Ongole, Andhra Pradesh",
+    default: "Vasu Car Travels Ongole | 24/7 AC Cab Service",
     template: "%s | Vasu Car Travels Ongole",
   },
+
   description:
-    "Vasu Car Travels Ongole provides 24/7 reliable AC cab booking and car rental services in Ongole, Andhra Pradesh. We offer local city rides, airport and railway station transfers, and outstation round trips including Ongole to Tirupati, Hyderabad, and Vijayawada. Clean sedans, spacious SUVs, and professional drivers for family trips, functions, office travel, and last-minute bookings.",
+    "Vasu Car Travels provides 24/7 AC cab booking and car rental services in Ongole, Andhra Pradesh, India. We offer local city taxi, airport transfers, railway station pickup, and outstation trips from Ongole to Tirupati, Hyderabad, Vijayawada, Chennai, Bangalore and more. Trusted drivers, clean AC sedans and SUVs, and fast booking via call or WhatsApp from Ongole.",
+
   keywords: [
+    // Brand + core
     "Vasu Car Travels Ongole",
-    "car travels ongole",
-    "cab service ongole",
-    "taxi in ongole",
-    "airport taxi ongole",
-    "railway station taxi ongole",
-    "car rental ongole",
-    "car rental in ongole AP",
-    "24/7 cab service ongole",
-    "local taxi service ongole",
-    "local cab in ongole",
-    "outstation taxi from ongole",
-    "outstation cabs ongole",
-    "one way drops ongole",
-    "family trip cabs ongole",
-    "function cab service ongole",
-    "marriage car bookings ongole",
-    "office pickup drop ongole",
-    "cab booking ongole online",
-    "best car travels in ongole",
-    "cheap and best taxi ongole",
-    "safe taxi service ongole",
-    "cabs prakasam district",
-    "cab service prakasam district",
+    "Vasu cabs Ongole",
+    "Vasu taxi Ongole",
+
+    // Local cab / taxi search
+    "AC cab service Ongole",
+    "24/7 taxi booking Ongole",
+    "local taxi in Ongole",
+    "local cab booking Ongole",
+    "cab service in Ongole Andhra Pradesh",
+    "best taxi service Ongole",
+    "cheap and best taxi Ongole",
+
+    // Airport / railway
+    "airport cab from Ongole to Hyderabad",
+    "airport taxi Ongole",
+    "airport pickup and drop Ongole",
+    "railway station pickup taxi Ongole",
+    "Ongole railway station cab",
+
+    // Outstation routes
+    "outstation taxi from Ongole",
+    "outstation cab Ongole to Tirupati",
+    "outstation cab Ongole to Hyderabad",
+    "outstation cab Ongole to Vijayawada",
+    "one way cab service Ongole",
+    "round trip cab service from Ongole",
+
+    // Rental / car type
+    "car rental Ongole sedans and SUVs",
+    "SUV car rental Ongole",
+    "sedan car rental Ongole",
+    "AC car rental service Ongole",
+
+    // Use cases
+    "family trip cabs Ongole",
+    "function car bookings Ongole",
+    "wedding car rentals Ongole",
+    "office pickup and drop cabs Ongole",
+    "last minute cab booking Ongole",
+    "24/7 emergency cab service Ongole",
+
+    // Locality / region
+    "car travels Prakasam district",
+    "cab service Prakasam district",
     "taxi service Andhra Pradesh",
-    "taxi near me ongole",
-    "cab service near chirala",
-    "ongole to tirupati cab",
-    "ongole to hyderabad taxi",
-    "ongole to vijayawada cab",
-    "ongole to railway station taxi",
-    "ongole to airport cab",
-    "airport cab from ongole",
-    "railway station pickup ongole",
-    "SUV rental ongole",
-    "sedan rental ongole",
-    "AC car rental ongole",
-    "cab booking last minute ongole",
-    "24/7 emergency cab service ongole",
+    "cab booking near me Ongole",
+    "cab service near Chirala",
   ],
+
   authors: [{ name: "Vasu Car Travels Ongole" }],
+
   alternates: {
-    canonical: "https://cartravelsongole.in/",
+    canonical: "/",
   },
+
   openGraph: {
-    title: "Vasu Car Travels Ongole | 24/7 AC Cabs & Car Rentals in Ongole",
+    title: "Vasu Car Travels Ongole | 24/7 AC Cabs & Car Rental",
     description:
-      "Book 24/7 AC cabs and car rentals in Ongole for airport & railway transfers, office pickup-drop, family trips and outstation travel (Ongole → Tirupati, Hyderabad, Vijayawada). Choose from clean sedans and spacious SUVs with trusted professional drivers. Fast booking via call or WhatsApp.",
+      "24/7 AC taxi and car rental service in Ongole for local rides, airport & railway transfers, and outstation travel from Ongole to major cities like Hyderabad, Tirupati, and Vijayawada. Book quickly via call or WhatsApp. Clean sedans & SUVs with trusted, professional drivers from Ongole.",
     url: "https://cartravelsongole.in/",
     siteName: "Vasu Car Travels Ongole",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "https://cartravelsongole.in/vasu-car-logo.png",
+        url: "/vasu-car-logo.png",
         width: 800,
         height: 800,
-        alt: "Vasu Car Travels Ongole Logo",
+        alt: "Vasu Car Travels AC Cabs Ongole",
       },
     ],
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "Vasu Car Travels Ongole | Taxi & Car Rentals in Ongole",
+    title: "Vasu Car Travels Ongole | 24/7 AC Taxi & Car Rental",
     description:
-      "24/7 AC sedans & SUVs for airport, railway, local & outstation trips from Ongole. Quick booking via call or WhatsApp.",
-    images: ["https://cartravelsongole.in/vasu-car-logo.png"],
+      "Book 24/7 AC cabs in Ongole for local, airport transfers and outstation trips. Reliable sedans & SUVs with trusted drivers. Fast booking via call or WhatsApp.",
+    images: ["/vasu-car-logo.png"],
   },
 };
 
-import type { ReactNode } from "react";
-
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: ReactNode;
+}): JSX.Element {
   return (
     <html lang="en">
       <body className="bg-white text-neutral-900 antialiased">

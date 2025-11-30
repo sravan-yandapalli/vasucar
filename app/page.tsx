@@ -1,9 +1,12 @@
 // app/page.tsx
-import Navbar  from "./components/Navbar";
-import Hero  from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import Service from "./components/Service";
 import Why from "./components/Why";
+import Routes from "./components/Routes";
+import Fleet from "./components/Fleet";
+import Booking from "./components/Booking";
 
 const businessSchema = {
   "@context": "https://schema.org",
@@ -63,10 +66,23 @@ const faqSchema = {
   ],
 };
 
+// 🔹 NEW: sitelinks / website schema
+const sitelinksSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Vasu Car Travels Ongole",
+  url: "https://cartravelsongole.in",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: "https://cartravelsongole.in/?s={search_term_string}",
+    "query-input": "required name=search_term_string",
+  },
+};
+
 export default function Home() {
   return (
     <>
-      {/* JSON-LD SEO: Local Business & FAQ */}
+      {/* JSON-LD SEO: Local Business, FAQ, Sitelinks */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }}
@@ -75,14 +91,22 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+      {/* 🔹 NEW script for sitelinks */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(sitelinksSchema) }}
+      />
 
       <main>
         <Navbar />
         <Hero />
-        <Why />    
-        <Service /> 
-        <Footer />  
-  
+        <Why />
+        <Service />
+        <Routes />
+        <Booking />
+        <Fleet />
+       
+        <Footer />
       </main>
     </>
   );

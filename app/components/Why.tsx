@@ -1,53 +1,68 @@
+// components/Why.tsx
 import React, { JSX } from "react";
 
-const reasons = [
-  "10+ Years Route-Experienced Drivers",
-  "On-Time Guaranteed Pickup & Drop",
-  "Safe Travel for Families and Ladies",
-  "AC Comfort Cars (SUV, Sedan, Hatchback)",
-  "Affordable and Flexible Pricing Plans",
-  "No Hidden Charges / Transparent Billing",
-  "24/7 Customer Support",
-  "Function-Friendly and Premium Cars",
-  "Luggage Assistance",
-  "Last-Minute Bookings Accepted",
-  "Multi-City Connectivity from Ongole",
+const points = [
+  {
+    title: "Trusted Local Owner",
+    desc: "Vasu Car Travels is locally owned and operated in Ongole, serving families and businesses in Prakasam district for years.",
+  },
+  {
+    title: "24/7 Availability",
+    desc: "Late-night pickups, early-morning airport drops or urgent hospital visits – cabs available round the clock.",
+  },
+  {
+    title: "Clean & Well-Maintained Cars",
+    desc: "All vehicles are regularly serviced, cleaned and checked before long outstation trips for a smooth ride.",
+  },
+  {
+    title: "Experienced & Safe Drivers",
+    desc: "Drivers know Ongole routes, highways and nearby cities well, ensuring safe driving for women, kids and elders.",
+  },
 ];
 
 export default function Why(): JSX.Element {
   return (
-    <section className="bg-gradient-to-b from-white via-slate-50 to-white">
-      <div className="mx-auto max-w-6xl px-4 py-16 lg:py-20">
-        {/* Heading */}
-        <div className="max-w-3xl">
-          <p className="inline-flex items-center rounded-full bg-[#8B0000]/10 px-4 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-[#8B0000]">
+    <section className="bg-[#111111] text-white">
+      <div className="mx-auto max-w-[1440px] w-full px-4 py-10 lg:py-14 grid gap-8 md:grid-cols-[1.6fr,1.4fr] items-start">
+        {/* LEFT TEXT */}
+        <div>
+          <p className="text-xs md:text-sm uppercase tracking-[0.25em] text-red-200 font-semibold">
             Why Choose Us
           </p>
-          <h2 className="mt-3 text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900">
-            Why People Choose{" "}
-            <span className="text-[#8B0000]">Vasu Car Travels Ongole</span>?
+          <h2 className="mt-2 text-2xl md:text-3xl font-semibold">
+            Why Ongole Families Prefer Vasu Car Travels
           </h2>
-          <p className="mt-3 text-sm sm:text-base text-slate-600">
-            We focus on safety, comfort and transparent pricing, so every ride
-            feels reliable – whether it’s a quick city trip or a long outstation
-            journey.
+          <p className="mt-4 text-sm md:text-base text-gray-200 leading-relaxed">
+            We focus on safe, on-time and comfortable rides from Ongole. From
+            short local trips to long outstation journeys, our team ensures
+            every booking is handled carefully – right from confirmation till
+            drop.
+          </p>
+          <p className="mt-3 text-xs md:text-sm text-gray-400">
+            Whether it is a temple trip, office visit, marriage function or
+            airport drop, we treat every ride like family travel.
           </p>
         </div>
 
-        {/* Reasons list */}
-        <div className="mt-8 grid gap-4 sm:gap-5 sm:grid-cols-2">
-          {reasons.map((reason) => (
-            <div
-              key={reason}
-              className="flex items-start gap-3 rounded-xl bg-white/80 border border-slate-200 px-4 py-3 shadow-sm"
+        {/* RIGHT: BULLETS */}
+        <div className="space-y-4">
+          {points.map((p) => (
+            <article
+              key={p.title}
+              className="flex gap-3 rounded-2xl border border-white/10 bg-white/5 p-4 md:p-5"
             >
-              <span className="mt-0.5 inline-flex h-7 w-7 items-center justify-center rounded-lg bg-emerald-500 text-base">
-                ✅
-              </span>
-              <p className="text-sm sm:text-base font-medium text-slate-800">
-                {reason}
-              </p>
-            </div>
+              <div className="mt-1 flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-[#f80000] text-xs font-bold">
+                ✓
+              </div>
+              <div>
+                <h3 className="text-sm md:text-base font-semibold">
+                  {p.title}
+                </h3>
+                <p className="mt-1 text-[11px] md:text-sm text-gray-300 leading-relaxed">
+                  {p.desc}
+                </p>
+              </div>
+            </article>
           ))}
         </div>
       </div>
