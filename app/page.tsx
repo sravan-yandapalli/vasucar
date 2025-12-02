@@ -20,7 +20,7 @@ const businessSchema = {
   image: "https://cartravelsongole.in/vasu-car-logo.png",
   description:
     "Vasu Car Travels Ongole provides 24/7 reliable AC cab booking and car rental services in Ongole, Andhra Pradesh. Local taxi, airport transfers, railway station pickup and outstation cab service from Ongole to Tirupati, Hyderabad, Vijayawada and more.",
-  telephone: "+91-7075367929",
+  telephone: "+91-8885553158",
   priceRange: "₹₹",
   address: {
     "@type": "PostalAddress",
@@ -35,7 +35,7 @@ const businessSchema = {
     longitude: 80.0499,
   },
   openingHours: "Mo-Su 00:00-23:59",
-  sameAs: ["https://wa.me/917075367929"],
+  sameAs: ["https://wa.me/918885553158"],
 };
 
 // FAQ JSON-LD

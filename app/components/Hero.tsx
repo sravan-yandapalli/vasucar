@@ -163,7 +163,7 @@ export default function Hero(): JSX.Element {
             {/* Buttons */}
             <div className="mt-4 flex flex-col sm:flex-row gap-2">
               <a
-                href="tel:+917075367929"
+                href="tel:+918885553158"
                 className="w-full sm:w-auto px-4 py-2.5 rounded-[10px] bg-[#f1bc00d6] flex items-center justify-center gap-2 text-xs font-medium shadow-md"
                 aria-label="Call Vasu Car Travels Ongole for instant cab booking"
               >

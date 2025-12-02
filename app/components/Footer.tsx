@@ -97,7 +97,7 @@ export default function Footer(): JSX.Element {
               {/* PHONE */}
               <li className="flex items-center gap-3">
                 <span className="text-lg" aria-hidden="true">📞</span>
-                <button onClick={() => window.open("tel:+917075367929")} className="text-left">
+                <button onClick={() => window.open("tel:+918885553158")} className="text-left">
                   <div
                     className="inline-flex flex-col items-start bg-white/10 backdrop-blur-sm px-5 py-2 rounded-full border border-white/20 shadow-md hover:bg-white/20 transition-all"
                   >
@@ -118,7 +118,7 @@ export default function Footer(): JSX.Element {
                   WhatsApp booking available 24/7
                   <br />
                   <button
-                    onClick={() => window.open("https://wa.me/917075367929", "_blank")}
+                    onClick={() => window.open("https://wa.me/918885553158", "_blank")}
                     className="mt-1 inline-flex items-center gap-2 bg-white text-[#8B0000] px-3 py-1 rounded-full font-bold shadow hover:bg-[#ffe6e6] transition-all"
                     aria-label="Chat with Vasu Car Travels Ongole on WhatsApp"
                   >

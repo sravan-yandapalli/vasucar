@@ -38,7 +38,7 @@ export default function Navbar(): JSX.Element {
         <div className="flex flex-1 justify-center">
           {/* CALL NOW BUTTON (MOBILE ONLY, small - same as your original) */}
           <a
-            href="tel:+917075367929"
+            href="tel:+918885553158"
             className="md:hidden flex items-center justify-center gap-1 rounded-full bg-[#f80000] px-3 py-2.5 text-white font-bold text-[8.5px] shadow-md hover:bg-red-700 transition"
           >
             <img src="/call.svg" alt="Call icon" className="h-2.5 w-2.5" />
@@ -96,7 +96,7 @@ export default function Navbar(): JSX.Element {
         <div className="flex items-center justify-end gap-3 shrink-0">
           {/* CALL NOW (DESKTOP ONLY) */}
           <a
-            href="tel:+917075367929"
+            href="tel:+918885553158"
             className="hidden md:flex items-center gap-3 rounded-2xl bg-[#f80000] px-5 py-3 text-white font-bold text-[18px] shadow-md hover:bg-red-700 transition"
           >
             <img src="/call.svg" alt="Call icon" className="h-6 w-6" />

@@ -146,7 +146,7 @@ export default function Faq() {
         <div className="mt-10 text-center text-zinc-300 text-sm">
           Still have a question?{" "}
           <a
-            href="tel:+917075367929"
+            href="tel:+918885553158"
             className="font-semibold text-red-400 hover:text-red-300 underline underline-offset-4"
           >
             Call 70753 67929

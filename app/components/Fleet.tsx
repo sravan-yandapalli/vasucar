@@ -136,13 +136,13 @@ export default function Fleet(): JSX.Element {
               <strong>buy</strong> a used car in Ongole?
             </p>
             <a
-              href="tel:+917075367929"
+              href="tel:+918885553158"
               className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-[#f80000] text-white font-semibold text-xs md:text-sm shadow hover:bg-red-700 transition-colors"
             >
               📞 Call Vasu Car Travels
             </a>
             <a
-              href="https://wa.me/917075367929"
+              href="https://wa.me/918885553158"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-[#25D366] text-white font-semibold text-xs md:text-sm shadow hover:bg-[#1ebe5d] transition-colors"
