@@ -1,8 +1,9 @@
 // app/layout.tsx
 import "./globals.css";
 import type { JSX, ReactNode } from "react";
+import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   metadataBase: new URL("https://cartravelsongole.in"),
 
   title: {
@@ -14,12 +15,9 @@ export const metadata = {
     "Vasu Car Travels provides 24/7 AC cab booking and car rental services in Ongole, Andhra Pradesh, India. We offer local city taxi, airport transfers, railway station pickup, and outstation trips from Ongole to Tirupati, Hyderabad, Vijayawada, Chennai, Bangalore and more. Trusted drivers, clean AC sedans and SUVs, and fast booking via call or WhatsApp from Ongole.",
 
   keywords: [
-    // Brand + core
     "Vasu Car Travels Ongole",
     "Vasu cabs Ongole",
     "Vasu taxi Ongole",
-
-    // Local cab / taxi search
     "AC cab service Ongole",
     "24/7 taxi booking Ongole",
     "local taxi in Ongole",
@@ -27,37 +25,27 @@ export const metadata = {
     "cab service in Ongole Andhra Pradesh",
     "best taxi service Ongole",
     "cheap and best taxi Ongole",
-
-    // Airport / railway
     "airport cab from Ongole to Hyderabad",
     "airport taxi Ongole",
     "airport pickup and drop Ongole",
     "railway station pickup taxi Ongole",
     "Ongole railway station cab",
-
-    // Outstation routes
     "outstation taxi from Ongole",
     "outstation cab Ongole to Tirupati",
     "outstation cab Ongole to Hyderabad",
     "outstation cab Ongole to Vijayawada",
     "one way cab service Ongole",
     "round trip cab service from Ongole",
-
-    // Rental / car type
     "car rental Ongole sedans and SUVs",
     "SUV car rental Ongole",
     "sedan car rental Ongole",
     "AC car rental service Ongole",
-
-    // Use cases
     "family trip cabs Ongole",
     "function car bookings Ongole",
     "wedding car rentals Ongole",
     "office pickup and drop cabs Ongole",
     "last minute cab booking Ongole",
     "24/7 emergency cab service Ongole",
-
-    // Locality / region
     "car travels Prakasam district",
     "cab service Prakasam district",
     "taxi service Andhra Pradesh",

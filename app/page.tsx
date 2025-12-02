@@ -1,4 +1,5 @@
 // app/page.tsx
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
@@ -7,7 +8,9 @@ import Why from "./components/Why";
 import Routes from "./components/Routes";
 import Fleet from "./components/Fleet";
 import Booking from "./components/Booking";
+import Faq from "./components/Faq";
 
+// LocalBusiness JSON-LD
 const businessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
@@ -35,6 +38,7 @@ const businessSchema = {
   sameAs: ["https://wa.me/917075367929"],
 };
 
+// FAQ JSON-LD
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -66,7 +70,7 @@ const faqSchema = {
   ],
 };
 
-// 🔹 NEW: sitelinks / website schema
+// WebSite / sitelinks JSON-LD
 const sitelinksSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -85,27 +89,32 @@ export default function Home() {
       {/* JSON-LD SEO: Local Business, FAQ, Sitelinks */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(businessSchema),
+        }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
       />
-      {/* 🔹 NEW script for sitelinks */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(sitelinksSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(sitelinksSchema),
+        }}
       />
 
       <main>
         <Navbar />
         <Hero />
         <Why />
+        <Booking />
         <Service />
         <Routes />
-        <Booking />
         <Fleet />
-       
+        <Faq />
         <Footer />
       </main>
     </>

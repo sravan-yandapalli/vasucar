@@ -1,3 +1,4 @@
+// app/services/page.tsx
 import React, { JSX } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -15,6 +16,7 @@ export default function ServicesPage(): JSX.Element {
       <Navbar />
 
       <main className="bg-white">
+        {/* Top intro section */}
         <section className="border-b border-neutral-200">
           <div className="mx-auto max-w-[1440px] w-full px-4 py-10 lg:py-14">
             <p className="text-xs md:text-sm uppercase tracking-[0.25em] text-[#f80000] font-semibold">
@@ -33,7 +35,7 @@ export default function ServicesPage(): JSX.Element {
           </div>
         </section>
 
-        {/* reuse your existing Service cards */}
+        {/* Reuse your Service cards section */}
         <Service />
       </main>
 

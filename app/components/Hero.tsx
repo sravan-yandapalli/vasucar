@@ -1,3 +1,4 @@
+// app/components/Hero.tsx
 import React, { JSX } from "react";
 
 // defined once and reused
@@ -71,65 +72,65 @@ export default function Hero(): JSX.Element {
                 Call for instant Booking
               </a>
 
-              <a
-                href="#book"
-                className="inline-flex items-center justify-center w-[201px] h-[54px] rounded-[10px] bg-[#f80000] text-[20px] font-bold text-white text-center"
-                aria-label="Book cab online with Vasu Car Travels Ongole"
-              >
-                Book Now
-              </a>
-            </div>
+            <a
+              href="#book"
+              className="inline-flex items-center justify-center w-[201px] h-[54px] rounded-[10px] bg-[#f80000] text-[20px] font-bold text-white text-center"
+              aria-label="Book cab online with Vasu Car Travels Ongole"
+            >
+              Book Now
+            </a>
+          </div>
 
-            {/* Desktop icons static */}
-            <div className="absolute bottom-0 left-0 h-[121px] flex items-start min-w-[588px]">
-              <div className="w-[588px] flex gap-[76px]">
-                <div className="mt-1 w-[109px] h-[117px] flex flex-col gap-[9px] items-center text-center">
-                  <img
-                    className="w-[60px] h-[60px] object-cover"
-                    alt="Family-safe drivers in Ongole"
-                    src="/fam.png"
-                  />
-                  <p className="w-[107px] h-12 text-[19px]">
-                    Family-Safe <br /> Drivers
-                  </p>
-                </div>
+          {/* Desktop icons static */}
+          <div className="absolute bottom-0 left-0 h-[121px] flex items-start min-w-[588px]">
+            <div className="w-[588px] flex gap-[76px]">
+              <div className="mt-1 w-[109px] h-[117px] flex flex-col gap-[9px] items-center text-center">
+                <img
+                  className="w-[60px] h-[60px] object-cover"
+                  alt="Family-safe drivers in Ongole"
+                  src="/fam.png"
+                />
+                <p className="w-[107px] h-12 text-[19px]">
+                  Family-Safe <br /> Drivers
+                </p>
+              </div>
 
-                <div className="w-[81px] h-28 flex flex-col gap-1 items-center text-center">
-                  <img
-                    className="w-[60px] h-[60px] object-cover"
-                    alt="24/7 cab booking"
-                    src="/tax.png"
-                  />
-                  <p className="w-[79px] h-12 text-[19px]">
-                    24/7 Cab <br /> Booking
-                  </p>
-                </div>
+              <div className="w-[81px] h-28 flex flex-col gap-1 items-center text-center">
+                <img
+                  className="w-[60px] h-[60px] object-cover"
+                  alt="24/7 cab booking"
+                  src="/tax.png"
+                />
+                <p className="w-[79px] h-12 text-[19px]">
+                  24/7 Cab <br /> Booking
+                </p>
+              </div>
 
-                <div className="mt-1 w-20 h-[117px] flex flex-col gap-[9px] items-center text-center">
-                  <img
-                    className="w-[60px] h-[60px] object-cover"
-                    alt="Clean AC cars"
-                    src="/ac.png"
-                  />
-                  <p className="w-[78px] h-12 text-[19px]">
-                    Clean AC <br /> Cars
-                  </p>
-                </div>
+              <div className="mt-1 w-20 h-[117px] flex flex-col gap-[9px] items-center text-center">
+                <img
+                  className="w-[60px] h-[60px] object-cover"
+                  alt="Clean AC cars"
+                  src="/ac.png"
+                />
+                <p className="w-[78px] h-12 text-[19px]">
+                  Clean AC <br /> Cars
+                </p>
+              </div>
 
-                <div className="w-[92px] h-[121px] flex flex-col gap-[13px] items-center text-center">
-                  <img
-                    className="w-[60px] h-[60px] object-cover"
-                    alt="Luggage assistance"
-                    src="/lug.png"
-                  />
-                  <p className="w-[90px] h-12 text-[19px]">
-                    Luggage <br /> Assistance
-                  </p>
-                </div>
+              <div className="w-[92px] h-[121px] flex flex-col gap-[13px] items-center text-center">
+                <img
+                  className="w-[60px] h-[60px] object-cover"
+                  alt="Luggage assistance"
+                  src="/lug.png"
+                />
+                <p className="w-[90px] h-12 text-[19px]">
+                  Luggage <br /> Assistance
+                </p>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
         {/* ========== MOBILE + TABLET (below lg) ========== */}
         <div className="block lg:hidden relative px-4 pt-6 pb-8 text-black">
@@ -186,7 +187,7 @@ export default function Hero(): JSX.Element {
             {/* Cars block */}
             <div className="mt-6">
               <div className="relative max-w-sm mx-auto">
-                {/* red gradient base */}
+                {/* red gradient base (placeholder div for spacing) */}
                 <div className="w-full h-50" />
                 <div className="absolute inset-0 flex items-end justify-center pointer-events-none">
                   <div className="relative w-[95%] h-full">
@@ -251,12 +252,8 @@ function FeatureIcon({
   line2: string;
 }) {
   return (
-    <div className="min-w-[130px] max-w-[130px] flex flex-col items-center text-center gap-2 bg-white/90 backdrop-blur-[2px] p-3 rounded-2xl shadow-md">
-      <img
-        src={img}
-        alt={line1}
-        className="w-[44px] h-[44px] object-cover"
-      />
+    <div className="min-w-[130px] max-w-[130px] flex flex-col items-center text-center gap-2 bg:white/90 bg-white/90 backdrop-blur-[2px] p-3 rounded-2xl shadow-md">
+      <img src={img} alt={line1} className="w-[44px] h-[44px] object-cover" />
       <p className="text-xs font-semibold leading-snug">
         {line1}
         <br />
