@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
+
+User-agent: Googlebot
+Disallow: /_next/
+
 Sitemap: https://cartravelsongole.in/sitemap.xml

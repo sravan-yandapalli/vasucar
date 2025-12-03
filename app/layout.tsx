@@ -7,50 +7,52 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://cartravelsongole.in"),
 
   title: {
-    default: "Vasu Car Travels Ongole | 24/7 AC Cab Service",
-    template: "%s | Vasu Car Travels Ongole",
+    // ⭐ Your preferred line + extra good search words
+    default:
+      "Ongole Car Rental | Car Rental with Driver Ongole | Ongole Cabs & Airport Taxi | Vasu Car Travels 24/7",
+    template:
+      "%s | Ongole Car Rental & Ongole Cabs | Vasu Car Travels",
   },
 
   description:
-    "Vasu Car Travels provides 24/7 AC cab booking and car rental services in Ongole, Andhra Pradesh, India. We offer local city taxi, airport transfers, railway station pickup, and outstation trips from Ongole to Tirupati, Hyderabad, Vijayawada, Chennai, Bangalore and more. Trusted drivers, clean AC sedans and SUVs, and fast booking via call or WhatsApp from Ongole.",
+    "Ongole car rental and car rental with driver in Ongole by Vasu Car Travels. We provide Ongole cabs, car travels, airport taxi, railway station pickup and outstation cab service. Book 24/7 AC cars with experienced drivers for local town rides, village trips and long distance travel from Ongole to Hyderabad, Tirupati, Vijayawada, Chennai, Bangalore and more. Easy booking via call or WhatsApp.",
 
   keywords: [
+    // Main search patterns
+    "Ongole car rental",
+    "Car rental with driver Ongole",
+    "Ongole cabs",
+    "Car travels Ongole",
+    "Taxi service in Ongole",
+    "Airport taxi Ongole",
+    "Airport drop car Ongole",
+    "Ongole to Hyderabad airport cab",
+    "Ongole to Hyderabad taxi",
+    "Ongole to Tirupati cab",
+    "Ongole to Vijayawada cab",
+    "Outstation taxi Ongole",
+    "Outstation car rental Ongole",
+    "Ongole cab booking",
+    "Cabs available in Ongole",
+    "Nearest cab Ongole",
+    "24/7 cab service Ongole",
+    "Railway station taxi Ongole",
+    "Temple trip car Ongole",
+    "Village taxi booking Ongole",
+
+    // Brand + extra local
     "Vasu Car Travels Ongole",
     "Vasu cabs Ongole",
     "Vasu taxi Ongole",
     "AC cab service Ongole",
-    "24/7 taxi booking Ongole",
-    "local taxi in Ongole",
-    "local cab booking Ongole",
-    "cab service in Ongole Andhra Pradesh",
-    "best taxi service Ongole",
-    "cheap and best taxi Ongole",
-    "airport cab from Ongole to Hyderabad",
-    "airport taxi Ongole",
-    "airport pickup and drop Ongole",
-    "railway station pickup taxi Ongole",
-    "Ongole railway station cab",
-    "outstation taxi from Ongole",
-    "outstation cab Ongole to Tirupati",
-    "outstation cab Ongole to Hyderabad",
-    "outstation cab Ongole to Vijayawada",
-    "one way cab service Ongole",
-    "round trip cab service from Ongole",
-    "car rental Ongole sedans and SUVs",
-    "SUV car rental Ongole",
-    "sedan car rental Ongole",
-    "AC car rental service Ongole",
-    "family trip cabs Ongole",
-    "function car bookings Ongole",
-    "wedding car rentals Ongole",
-    "office pickup and drop cabs Ongole",
-    "last minute cab booking Ongole",
-    "24/7 emergency cab service Ongole",
-    "car travels Prakasam district",
-    "cab service Prakasam district",
-    "taxi service Andhra Pradesh",
-    "cab booking near me Ongole",
-    "cab service near Chirala",
+    "Best cab service Ongole",
+    "Family car travels Ongole",
+    "Wedding car rentals Ongole",
+    "Function car bookings Ongole",
+    "Car travels in Prakasam district",
+    "Taxi service Prakasam district",
+    "Cab booking near me Ongole",
+    "Cab service near Chirala",
   ],
 
   authors: [{ name: "Vasu Car Travels Ongole" }],
@@ -60,16 +62,17 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Vasu Car Travels Ongole | 24/7 AC Cabs & Car Rental",
+    title:
+      "Ongole Car Rental & Ongole Cabs | Vasu Car Travels 24/7 Taxi, Airport Drop & Outstation Service",
     description:
-      "24/7 AC taxi and car rental service in Ongole for local rides, airport & railway transfers, and outstation travel from Ongole to major cities like Hyderabad, Tirupati, and Vijayawada. Book quickly via call or WhatsApp. Clean sedans & SUVs with trusted, professional drivers from Ongole.",
+      "Vasu Car Travels offers Ongole car rental with driver, Ongole cabs and car travels for airport taxi, railway pickup, local rides and outstation trips. 24/7 AC cabs with trusted drivers from Ongole to Hyderabad, Tirupati, Vijayawada, Chennai, Bangalore and nearby towns and villages.",
     url: "https://cartravelsongole.in/",
     siteName: "Vasu Car Travels Ongole",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "/vasu-car-logo.png",
+        url: "/icon.png",
         width: 800,
         height: 800,
         alt: "Vasu Car Travels AC Cabs Ongole",
@@ -79,10 +82,18 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Vasu Car Travels Ongole | 24/7 AC Taxi & Car Rental",
+    title:
+      "Ongole Car Rental with Driver & Ongole Cabs | Vasu Car Travels 24/7",
     description:
-      "Book 24/7 AC cabs in Ongole for local, airport transfers and outstation trips. Reliable sedans & SUVs with trusted drivers. Fast booking via call or WhatsApp.",
-    images: ["/vasu-car-logo.png"],
+      "Book Ongole car rental with driver and Ongole cabs with Vasu Car Travels. 24/7 taxi, airport drop, railway pickup and outstation car travels from Ongole with clean AC cars and experienced drivers.",
+    images: ["/icon.png"],
+  },
+
+  // Favicon / logo
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
   },
 };
 
@@ -94,6 +105,31 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-white text-neutral-900 antialiased">
+        {/* Local business schema to help Google understand you as a cab/car rental in Ongole */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "TaxiService",
+              name: "Vasu Car Travels Ongole",
+              url: "https://cartravelsongole.in/",
+              telephone: "+91 8885553158", // replace with your real number
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Ongole",
+                addressRegion: "Andhra Pradesh",
+                addressCountry: "IN",
+              },
+              areaServed: [
+                "Ongole",
+                "Prakasam District",
+                "Chirala",
+                "Andhra Pradesh",
+              ],
+            }),
+          }}
+        />
         {children}
       </body>
     </html>

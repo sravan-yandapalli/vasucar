@@ -16,10 +16,10 @@ const businessSchema = {
   "@type": "LocalBusiness",
   name: "Vasu Car Travels Ongole",
   url: "https://cartravelsongole.in/",
-  logo: "https://cartravelsongole.in/vasu-car-logo.png",
-  image: "https://cartravelsongole.in/vasu-car-logo.png",
+  logo: "https://cartravelsongole.in/icon.png",
+  image: "https://cartravelsongole.in/icon.png",
   description:
-    "Vasu Car Travels Ongole provides 24/7 reliable AC cab booking and car rental services in Ongole, Andhra Pradesh. Local taxi, airport transfers, railway station pickup and outstation cab service from Ongole to Tirupati, Hyderabad, Vijayawada and more.",
+    "Vasu Car Travels Ongole provides Ongole car rental, car rental with driver in Ongole and Ongole cabs & airport taxi service. We offer 24/7 AC cab booking and car travels in Ongole for local taxi rides, airport drop taxi from Ongole to Hyderabad Airport, railway station pickup and outstation cab service to Tirupati, Vijayawada, Chennai, Bangalore and nearby towns and villages.",
   telephone: "+91-8885553158",
   priceRange: "₹₹",
   address: {
@@ -45,26 +45,26 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Is Vasu Car Travels Ongole available 24/7?",
+      name: "Is your Ongole car rental and taxi service available 24/7?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Vasu Car Travels Ongole offers 24/7 cab booking in Ongole for local, airport, railway station and outstation trips.",
+        text: "Yes, Vasu Car Travels Ongole offers 24/7 Ongole car rental with driver and taxi service in Ongole. You can book Ongole cabs for local travel, airport taxi, railway station pickup and outstation trips at any time.",
       },
     },
     {
       "@type": "Question",
-      name: "Do you provide outstation taxi from Ongole?",
+      name: "Do you provide airport taxi and outstation cabs from Ongole?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, we provide one-way and round-trip outstation cab services from Ongole to Tirupati, Hyderabad, Vijayawada and other cities.",
+        text: "Yes, we provide airport taxi from Ongole to Hyderabad Airport and outstation cabs from Ongole to Tirupati, Vijayawada, Chennai, Bangalore and many other cities and towns.",
       },
     },
     {
       "@type": "Question",
-      name: "Which cars are available for rental?",
+      name: "Which cars are available for car rental with driver in Ongole?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We offer clean AC sedans, hatchbacks and spacious SUVs for family trips, functions, office travel and long-distance journeys from Ongole.",
+        text: "For Ongole car rental with driver we offer clean AC sedans, hatchbacks and spacious SUVs that are ideal for family trips, functions, office travel, temple visits and long-distance journeys from Ongole to villages and cities.",
       },
     },
   ],
@@ -108,6 +108,27 @@ export default function Home() {
 
       <main>
         <Navbar />
+
+        {/* SEO hero text matching your meta title */}
+        <section className="px-4 pt-6 pb-4 text-center">
+          <h1 className="text-3xl md:text-4xl font-bold">
+            Ongole Car Rental | Car Rental with Driver Ongole | Ongole Cabs &
+            Airport Taxi – Vasu Car Travels 24/7
+          </h1>
+
+          <p className="mt-3 max-w-3xl mx-auto text-base md:text-lg">
+            <strong>Vasu Car Travels Ongole</strong> is your trusted choice for{" "}
+            <strong>Ongole car rental</strong>,{" "}
+            <strong>car rental with driver in Ongole</strong> and reliable{" "}
+            <strong>Ongole cabs & airport taxi</strong>. We provide 24/7 AC
+            taxi service in Ongole for local city rides, village trips, airport
+            drop taxi from Ongole to Hyderabad Airport, railway station cab
+            service, temple visits and outstation car travels from Ongole to all
+            major cities in Andhra Pradesh and nearby states. Book your cab
+            easily via call or WhatsApp.
+          </p>
+        </section>
+
         <Hero />
         <Why />
         <Booking />
