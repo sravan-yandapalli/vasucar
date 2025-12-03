@@ -40,27 +40,32 @@ export default function Hero(): JSX.Element {
 
           {/* LEFT SIDE : text + buttons + icons */}
           <div className="absolute top-[41px] left-[67px] w-[650px] h-[636px]">
-            <p className="text-3xl font-semibold">
-              Ongole’s Most Trusted 24/7 Cab Service
+            <p className="text-2xl font-semibold">
+              Safe 24/7 Ongole Cabs for Airports, Temples & Villages
             </p>
             <div className="mt-3 ml-1 w-[168px] h-[5px] bg-[#f80000]" />
 
-            <h1 className="mt-6 text-[42px] font-semibold leading-[63px]">
-              Reliable Car Travels In <br />
-              Ongole For Local, Airport <br />
-              &amp; Outstation Trips
+            {/* MAIN SEO H1 */}
+            <h1 className="mt-6 text-[32px] leading-[46px] font-extrabold">
+              Ongole Car Rental | Car Rental with Driver Ongole | Ongole Cabs &
+              Airport Taxi – Vasu Car Travels 24/7
             </h1>
 
-            <p className="mt-5 w-[453px] text-[15px] font-semibold leading-[22.5px]">
-              Safe and comfortable taxi rides across Prakasam district. Book
-              clean AC sedans &amp; SUVs for airports, railway stations,
-              weddings and outstation trips to Tirupati, Hyderabad and
-              Vijayawada — anytime, day or night.
+            <p className="mt-5 w-[530px] text-[15px] font-semibold leading-[22.5px]">
+              <strong>Vasu Car Travels Ongole</strong> is your trusted choice
+              for <strong>Ongole car rental</strong>,{" "}
+              <strong>car rental with driver in Ongole</strong> and reliable{" "}
+              <strong>Ongole cabs &amp; airport taxi</strong>. We provide 24/7
+              AC taxi service in Ongole for local city rides, village trips,
+              airport drop taxi from Ongole to Hyderabad Airport, railway
+              station cab service, temple visits and outstation car travels from
+              Ongole to all major cities in Andhra Pradesh and nearby states.
+              Book your cab easily via call or WhatsApp.
             </p>
 
             <div className="mt-7 flex gap-4">
               <a
-                href="tel:+917075367929"
+                href="tel:+918885553158"
                 className="relative inline-flex items-center justify-center w-[221px] h-[54px] rounded-[10px] bg-[#f1bc00d6] text-sm text-center font-medium"
                 aria-label="Call Vasu Car Travels Ongole for instant cab booking"
               >
@@ -72,65 +77,65 @@ export default function Hero(): JSX.Element {
                 Call for instant Booking
               </a>
 
-            <a
-              href="#book"
-              className="inline-flex items-center justify-center w-[201px] h-[54px] rounded-[10px] bg-[#f80000] text-[20px] font-bold text-white text-center"
-              aria-label="Book cab online with Vasu Car Travels Ongole"
-            >
-              Book Now
-            </a>
-          </div>
+              <a
+                href="#booking"
+                className="inline-flex items-center justify-center w-[201px] h-[54px] rounded-[10px] bg-[#f80000] text-[20px] font-bold text-white text-center"
+                aria-label="Book cab online with Vasu Car Travels Ongole"
+              >
+                Book Now
+              </a>
+            </div>
 
-          {/* Desktop icons static */}
-          <div className="absolute bottom-0 left-0 h-[121px] flex items-start min-w-[588px]">
-            <div className="w-[588px] flex gap-[76px]">
-              <div className="mt-1 w-[109px] h-[117px] flex flex-col gap-[9px] items-center text-center">
-                <img
-                  className="w-[60px] h-[60px] object-cover"
-                  alt="Family-safe drivers in Ongole"
-                  src="/fam.png"
-                />
-                <p className="w-[107px] h-12 text-[19px]">
-                  Family-Safe <br /> Drivers
-                </p>
-              </div>
+            {/* Desktop icons static */}
+            <div className="absolute bottom-0 left-0 h-[121px] flex items-start min-w-[588px]">
+              <div className="w-[588px] flex gap-[76px]">
+                <div className="mt-1 w-[109px] h-[117px] flex flex-col gap-[9px] items-center text-center">
+                  <img
+                    className="w-[60px] h-[60px] object-cover"
+                    alt="Family-safe drivers in Ongole"
+                    src="/fam.png"
+                  />
+                  <p className="w-[107px] h-12 text-[19px]">
+                    Family-Safe <br /> Drivers
+                  </p>
+                </div>
 
-              <div className="w-[81px] h-28 flex flex-col gap-1 items-center text-center">
-                <img
-                  className="w-[60px] h-[60px] object-cover"
-                  alt="24/7 cab booking"
-                  src="/tax.png"
-                />
-                <p className="w-[79px] h-12 text-[19px]">
-                  24/7 Cab <br /> Booking
-                </p>
-              </div>
+                <div className="w-[81px] h-28 flex flex-col gap-1 items-center text-center">
+                  <img
+                    className="w-[60px] h-[60px] object-cover"
+                    alt="24/7 cab booking"
+                    src="/tax.png"
+                  />
+                  <p className="w-[79px] h-12 text-[19px]">
+                    24/7 Cab <br /> Booking
+                  </p>
+                </div>
 
-              <div className="mt-1 w-20 h-[117px] flex flex-col gap-[9px] items-center text-center">
-                <img
-                  className="w-[60px] h-[60px] object-cover"
-                  alt="Clean AC cars"
-                  src="/ac.png"
-                />
-                <p className="w-[78px] h-12 text-[19px]">
-                  Clean AC <br /> Cars
-                </p>
-              </div>
+                <div className="mt-1 w-20 h-[117px] flex flex-col gap-[9px] items-center text-center">
+                  <img
+                    className="w-[60px] h-[60px] object-cover"
+                    alt="Clean AC cars"
+                    src="/ac.png"
+                  />
+                  <p className="w-[78px] h-12 text-[19px]">
+                    Clean AC <br /> Cars
+                  </p>
+                </div>
 
-              <div className="w-[92px] h-[121px] flex flex-col gap-[13px] items-center text-center">
-                <img
-                  className="w-[60px] h-[60px] object-cover"
-                  alt="Luggage assistance"
-                  src="/lug.png"
-                />
-                <p className="w-[90px] h-12 text-[19px]">
-                  Luggage <br /> Assistance
-                </p>
+                <div className="w-[92px] h-[121px] flex flex-col gap-[13px] items-center text-center">
+                  <img
+                    className="w-[60px] h-[60px] object-cover"
+                    alt="Luggage assistance"
+                    src="/lug.png"
+                  />
+                  <p className="w-[90px] h-12 text-[19px]">
+                    Luggage <br /> Assistance
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
         {/* ========== MOBILE + TABLET (below lg) ========== */}
         <div className="block lg:hidden relative px-4 pt-6 pb-8 text-black">
@@ -145,19 +150,24 @@ export default function Hero(): JSX.Element {
           <div className="relative">
             {/* Top text */}
             <p className="text-base font-semibold leading-snug">
-              Ongole’s Most Trusted 24/7 Cab Service
+             Safe 24/7 Ongole Cabs for Airports, Temples & Villages
             </p>
             <div className="mt-1 w-16 h-[3px] bg-[#f80000]" />
 
+            {/* SAME H1 TEXT FOR MOBILE (SEO) */}
             <h1 className="mt-3 text-2xl font-semibold leading-snug">
-              Reliable Car Travels In Ongole For Local, Airport &amp; Outstation
-              Trips
+              Ongole Car Rental | Car Rental with Driver Ongole | Ongole Cabs &
+              Airport Taxi – Vasu Car Travels 24/7
             </h1>
 
             <p className="mt-3 text-xs font-semibold leading-relaxed max-w-[480px] bg-white/90 p-3 rounded-xl shadow-sm">
-              Safe and comfortable AC taxi rides across Prakasam district for
-              airports, railway stations, weddings and outstation trips to
-              Tirupati, Hyderabad, Vijayawada and more.
+              <strong>Vasu Car Travels Ongole</strong> is your trusted choice
+              for <strong>Ongole car rental</strong>,{" "}
+              <strong>car rental with driver in Ongole</strong> and reliable{" "}
+              <strong>Ongole cabs &amp; airport taxi</strong>. 24/7 AC taxi for
+              local rides, villages, Hyderabad Airport, railway station, temple
+              visits and outstation trips across Andhra Pradesh and nearby
+              states. Book easily via call or WhatsApp.
             </p>
 
             {/* Buttons */}
@@ -176,7 +186,7 @@ export default function Hero(): JSX.Element {
               </a>
 
               <a
-                href="#book"
+                href="#booking"
                 className="w-full sm:w-auto px-5 py-2.5 rounded-[10px] bg-[#f80000] text-white text-sm font-semibold shadow-md text-center"
                 aria-label="Book cab online with Vasu Car Travels Ongole"
               >
@@ -187,7 +197,7 @@ export default function Hero(): JSX.Element {
             {/* Cars block */}
             <div className="mt-6">
               <div className="relative max-w-sm mx-auto">
-                {/* red gradient base (placeholder div for spacing) */}
+                {/* spacer */}
                 <div className="w-full h-50" />
                 <div className="absolute inset-0 flex items-end justify-center pointer-events-none">
                   <div className="relative w-[95%] h-full">
@@ -252,7 +262,7 @@ function FeatureIcon({
   line2: string;
 }) {
   return (
-    <div className="min-w-[130px] max-w-[130px] flex flex-col items-center text-center gap-2 bg:white/90 bg-white/90 backdrop-blur-[2px] p-3 rounded-2xl shadow-md">
+    <div className="min-w-[130px] max-w-[130px] flex flex-col items-center text-center gap-2 bg-white/90 backdrop-blur-[2px] p-3 rounded-2xl shadow-md">
       <img src={img} alt={line1} className="w-[44px] h-[44px] object-cover" />
       <p className="text-xs font-semibold leading-snug">
         {line1}

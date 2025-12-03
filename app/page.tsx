@@ -108,27 +108,7 @@ export default function Home() {
 
       <main>
         <Navbar />
-
-        {/* SEO hero text matching your meta title */}
-        <section className="px-4 pt-6 pb-4 text-center">
-          <h1 className="text-3xl md:text-4xl font-bold">
-            Ongole Car Rental | Car Rental with Driver Ongole | Ongole Cabs &
-            Airport Taxi – Vasu Car Travels 24/7
-          </h1>
-
-          <p className="mt-3 max-w-3xl mx-auto text-base md:text-lg">
-            <strong>Vasu Car Travels Ongole</strong> is your trusted choice for{" "}
-            <strong>Ongole car rental</strong>,{" "}
-            <strong>car rental with driver in Ongole</strong> and reliable{" "}
-            <strong>Ongole cabs & airport taxi</strong>. We provide 24/7 AC
-            taxi service in Ongole for local city rides, village trips, airport
-            drop taxi from Ongole to Hyderabad Airport, railway station cab
-            service, temple visits and outstation car travels from Ongole to all
-            major cities in Andhra Pradesh and nearby states. Book your cab
-            easily via call or WhatsApp.
-          </p>
-        </section>
-
+        {/* Single hero only */}
         <Hero />
         <Why />
         <Booking />
