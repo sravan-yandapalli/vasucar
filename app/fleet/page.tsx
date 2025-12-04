@@ -3,6 +3,7 @@ import React, { JSX } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Fleet from "../components/Fleet";
+import CarBuySellSupportPage from "../buy-sell/page";
 
 export const metadata = {
   title: "Car Fleet in Ongole | AC Sedans, SUVs & Tempo Travellers",
@@ -33,6 +34,7 @@ export default function FleetPage(): JSX.Element {
         </section>
 
         <Fleet />
+        <CarBuySellSupportPage/>
       </main>
       <Footer />
     </>

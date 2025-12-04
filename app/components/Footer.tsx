@@ -1,16 +1,22 @@
 "use client";
 
+// app/components/Footer.tsx
 import React, { JSX } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { MessageCircle } from "lucide-react";
 
 export default function Footer(): JSX.Element {
   const year = new Date().getFullYear();
 
   const handleLinkClick = () => {
-    // you can extend this later if needed (analytics, scroll to top, etc.)
     console.log("Navigated using footer link");
   };
+
+  const WHATSAPP_NUMBER = "918885553158"; // main WhatsApp number
+
+  const COMMON_MESSAGE =
+    "Hi Vasu Car Travels, I want to know more about your car buying, selling and rental services from Ongole. Please share details.";
 
   return (
     <footer className="bg-[#8B0000] text-white">
@@ -97,18 +103,20 @@ export default function Footer(): JSX.Element {
               {/* PHONE */}
               <li className="flex items-center gap-3">
                 <span className="text-lg" aria-hidden="true">📞</span>
-                <button onClick={() => window.open("tel:+918885553158")} className="text-left">
-                  <div
-                    className="inline-flex flex-col items-start bg-white/10 backdrop-blur-sm px-5 py-2 rounded-full border border-white/20 shadow-md hover:bg-white/20 transition-all"
-                  >
+                <a
+                  href={`tel:+918885553158`}
+                  className="text-left"
+                  aria-label="Call Vasu Car Travels Ongole Now"
+                >
+                  <div className="inline-flex flex-col items-start bg-white/10 backdrop-blur-sm px-5 py-2 rounded-full border border-white/20 shadow-md hover:bg-white/20 hover:scale-105 transition-all">
                     <span className="text-[9px] uppercase tracking-[0.16em] opacity-90 font-medium">
                       Call Now
                     </span>
                     <span className="text-base font-bold text-white leading-tight">
-                      70753 67929
+                      88855 53158
                     </span>
                   </div>
-                </button>
+                </a>
               </li>
 
               {/* WHATSAPP */}
@@ -117,13 +125,15 @@ export default function Footer(): JSX.Element {
                 <span>
                   WhatsApp booking available 24/7
                   <br />
-                  <button
-                    onClick={() => window.open("https://wa.me/918885553158", "_blank")}
-                    className="mt-1 inline-flex items-center gap-2 bg-white text-[#8B0000] px-3 py-1 rounded-full font-bold shadow hover:bg-[#ffe6e6] transition-all"
+                  <a
+                    href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(COMMON_MESSAGE)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-1 inline-flex items-center gap-2 bg-white text-black px-3 py-1 rounded-full font-bold shadow hover:bg-[#ffe6e6] hover:scale-105 transition-all"
                     aria-label="Chat with Vasu Car Travels Ongole on WhatsApp"
                   >
-                    Chat on WhatsApp
-                  </button>
+                    <MessageCircle size={16} /> Chat on WhatsApp
+                  </a>
                 </span>
               </li>
 

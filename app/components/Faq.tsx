@@ -17,9 +17,20 @@ const faqs: FAQItem[] = [
           <li>Fill the booking form on our website</li>
           <li>
             Call us anytime at{" "}
-            <strong className="text-white">70753 67929</strong>
+            <strong className="text-white">88855 53158</strong>
           </li>
-          <li>Message us on WhatsApp for instant confirmation</li>
+          <li>
+            Message us on{" "}
+            <a
+              href="https://wa.me/918885553158?text=Hi%20Vasu%20Car%20Travels%2C%20I%20want%20to%20book%20a%20cab%20from%20Ongole.%20Please%20share%20details."
+              className="text-green-400 underline underline-offset-4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WhatsApp
+            </a>{" "}
+            for instant confirmation
+          </li>
         </ul>
       </>
     ),
@@ -149,9 +160,18 @@ export default function Faq() {
             href="tel:+918885553158"
             className="font-semibold text-red-400 hover:text-red-300 underline underline-offset-4"
           >
-            Call 70753 67929
+            Call 88855 53158
           </a>{" "}
-          or message us on WhatsApp anytime.
+          or{" "}
+          <a
+            href="https://wa.me/918885553158?text=Hi%20Vasu%20Car%20Travels%2C%20I%20have%20a%20question%20about%20your%20cab%20service%20from%20Ongole."
+            className="font-semibold text-green-400 hover:text-green-300 underline underline-offset-4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            WhatsApp us
+          </a>{" "}
+          anytime.
         </div>
       </div>
     </section>

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import type { JSX } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Booking from "../components/Booking";
+import Booking from "../components/rates";
 
 // SEO metadata
 export const metadata: Metadata = {

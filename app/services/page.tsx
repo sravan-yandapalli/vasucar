@@ -3,6 +3,7 @@ import React, { JSX } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Service from "../components/Service";
+import CabPackagesOngolePage from "../components/rates";
 
 export const metadata = {
   title: "Taxi & Car Rental Services in Ongole | Vasu Car Travels",
@@ -37,6 +38,7 @@ export default function ServicesPage(): JSX.Element {
 
         {/* Reuse your Service cards section */}
         <Service />
+        <CabPackagesOngolePage/>
       </main>
 
       <Footer />

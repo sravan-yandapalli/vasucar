@@ -111,46 +111,7 @@ export default function Fleet(): JSX.Element {
           ))}
         </div>
 
-        {/* ✅ EXTRA: Car Buying & Selling section */}
-        <div className="mt-10 rounded-2xl bg-white shadow border border-dashed border-[#f80000] px-4 py-6 md:px-6 md:py-7 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-          <div className="max-w-xl">
-            <h3 className="text-lg md:text-xl font-semibold text-[#8B0000]">
-              Car Buying &amp; Selling Support in Ongole
-            </h3>
-            <p className="mt-2 text-xs md:text-sm text-neutral-700 leading-relaxed">
-              Along with taxi and rental services, Vasu Car Travels also helps
-              customers in Ongole to <strong>buy and sell used cars</strong>.
-              If you are planning to upgrade your vehicle or sell your old car,
-              we can connect you with genuine local buyers and trusted sellers.
-            </p>
-            <ul className="mt-3 text-xs md:text-sm text-neutral-700 list-disc list-inside space-y-1">
-              <li>Guidance for selling your car at a fair market price.</li>
-              <li>Support for checking documents and basic vehicle condition.</li>
-              <li>Only Ongole-based and nearby trusted contacts are preferred.</li>
-            </ul>
-          </div>
-
-          <div className="flex flex-col items-start md:items-end gap-2 text-sm">
-            <p className="text-xs md:text-sm text-neutral-700">
-              Want to <strong>sell</strong> your car or looking to{" "}
-              <strong>buy</strong> a used car in Ongole?
-            </p>
-            <a
-              href="tel:+918885553158"
-              className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-[#f80000] text-white font-semibold text-xs md:text-sm shadow hover:bg-red-700 transition-colors"
-            >
-              📞 Call Vasu Car Travels
-            </a>
-            <a
-              href="https://wa.me/918885553158"
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center justify-center px-4 py-2 rounded-full bg-[#25D366] text-white font-semibold text-xs md:text-sm shadow hover:bg-[#1ebe5d] transition-colors"
-            >
-              💬 WhatsApp for Car Buy/Sell
-            </a>
-          </div>
-        </div>
+        
       </div>
     </section>
   );

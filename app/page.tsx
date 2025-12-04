@@ -7,8 +7,11 @@ import Service from "./components/Service";
 import Why from "./components/Why";
 import Routes from "./components/Routes";
 import Fleet from "./components/Fleet";
-import Booking from "./components/Booking";
+import CabPackagesOngolePage from "./components/rates";
 import Faq from "./components/Faq";
+import  TempleRoutesPage from "./temple-routes/page";
+import CarBuySellSupportPage from "./buy-sell/page";
+import FloatingIcons from "./components/FloatingIcons";
 
 // LocalBusiness JSON-LD
 const businessSchema = {
@@ -108,15 +111,17 @@ export default function Home() {
 
       <main>
         <Navbar />
-        {/* Single hero only */}
         <Hero />
+        <TempleRoutesPage/>
         <Why />
-        <Booking />
+        <CabPackagesOngolePage />
         <Service />
         <Routes />
         <Fleet />
+        <CarBuySellSupportPage />
         <Faq />
         <Footer />
+        <FloatingIcons />
       </main>
     </>
   );

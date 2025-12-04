@@ -17,9 +17,9 @@ export default function Hero(): JSX.Element {
         <div className="relative hidden lg:block h-[720px] text-black">
           {/* RIGHT SIDE : red block + cars */}
           <div className="absolute top-0 right-0 w-[1024px] h-[676px]">
-            <div className="absolute top-0 left-[422px] w-[450px] h-[676px] flex bg-[#f80000]" />
+            <div className="absolute top-0 left-[502px] w-[450px] h-[676px] flex bg-[#f80000]" />
 
-            <div className="absolute top-[120px] left-0 w-[1024px] h-[517px]">
+            <div className="absolute top-[120px] left-20 w-[1024px] h-[517px]">
               <img
                 className="absolute top-[58px] left-[632px] w-[370px] h-[245px] aspect-[1.6] object-cover"
                 alt="Premium hatchback cab in Ongole"
@@ -39,7 +39,7 @@ export default function Hero(): JSX.Element {
           </div>
 
           {/* LEFT SIDE : text + buttons + icons */}
-          <div className="absolute top-[41px] left-[67px] w-[650px] h-[636px]">
+          <div className="absolute top-[41px] left-[57px] w-[650px] h-[636px]">
             <p className="text-2xl font-semibold">
               Safe 24/7 Ongole Cabs for Airports, Temples & Villages
             </p>
@@ -77,8 +77,9 @@ export default function Hero(): JSX.Element {
                 Call for instant Booking
               </a>
 
+              {/* ✅ Desktop Book Now – with WhatsApp pre-filled text */}
               <a
-                href="#booking"
+                href="https://wa.me/918885553158?text=Hi%20Vasu%20Car%20Travels%2C%20I%20want%20to%20book%20a%20cab%20from%20Ongole.%20Please%20share%20details."
                 className="inline-flex items-center justify-center w-[201px] h-[54px] rounded-[10px] bg-[#f80000] text-[20px] font-bold text-white text-center"
                 aria-label="Book cab online with Vasu Car Travels Ongole"
               >
@@ -150,7 +151,7 @@ export default function Hero(): JSX.Element {
           <div className="relative">
             {/* Top text */}
             <p className="text-base font-semibold leading-snug">
-             Safe 24/7 Ongole Cabs for Airports, Temples & Villages
+              Safe 24/7 Ongole Cabs for Airports, Temples & Villages
             </p>
             <div className="mt-1 w-16 h-[3px] bg-[#f80000]" />
 
@@ -185,8 +186,9 @@ export default function Hero(): JSX.Element {
                 <span>Call for instant Booking</span>
               </a>
 
+              {/* ✅ Mobile Book Now → WhatsApp with pre-filled text */}
               <a
-                href="#booking"
+                href="https://wa.me/918885553158?text=Hi%20Vasu%20Car%20Travels%2C%20I%20want%20to%20book%20a%20cab%20from%20Ongole.%20Please%20share%20details."
                 className="w-full sm:w-auto px-5 py-2.5 rounded-[10px] bg-[#f80000] text-white text-sm font-semibold shadow-md text-center"
                 aria-label="Book cab online with Vasu Car Travels Ongole"
               >

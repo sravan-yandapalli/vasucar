@@ -2,6 +2,7 @@ import React, { JSX } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import RoutesSection from "../components/Routes";
+import TempleRoutesPage from "../temple-routes/page";
 
 export const metadata = {
   title: "Popular Cab Routes From Ongole | Vasu Car Travels",
@@ -31,6 +32,8 @@ export default function RoutesPage(): JSX.Element {
             </p>
           </div>
         </section>
+
+        <TempleRoutesPage/>
 
         <RoutesSection />
       </main>
