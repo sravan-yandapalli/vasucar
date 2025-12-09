@@ -1,4 +1,4 @@
-
+// app/layout.tsx
 import "./globals.css";
 import type { JSX, ReactNode } from "react";
 import type { Metadata } from "next";
@@ -7,18 +7,18 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://cartravelsongole.in"),
 
   title: {
-
+    // Main SEO title (homepage)
     default:
-      "Ongole Car Rental | 24/7 Airport Taxi & AC Cabs – Vasu Car Travels",
+      "Ongole Taxi Service & Car Rentals – Vasu Car Travels Ongole | Airport Cabs, Outstation Trips & Local Rides",
+    // Used by other pages if they set their own title
     template:
-      "%s | Ongole Car Rental & Ongole Cabs – Vasu Car Travels",
+      "%s | Ongole Taxi & Car Rentals – Vasu Car Travels Ongole",
   },
 
   description:
-    "Ongole car rental and car rental with driver in Ongole by Vasu Car Travels. We provide Ongole cabs, car travels, airport taxi, railway station pickup and outstation cab service. Book 24/7 AC cars with experienced drivers for local town rides, village trips and long distance travel from Ongole to Hyderabad, Tirupati, Vijayawada, Chennai, Bangalore and more. Easy booking via call or WhatsApp.",
+    "Ongole taxi and car rental service by Vasu Car Travels Ongole. Book AC cabs for airport drop, railway pickup, local city rides, village trips and outstation travel from Ongole.",
 
   keywords: [
-
     "Ongole car rental",
     "Car rental with driver Ongole",
     "Ongole cabs",
@@ -40,7 +40,6 @@ export const metadata: Metadata = {
     "Temple trip car Ongole",
     "Village taxi booking Ongole",
 
-
     "Vasu Car Travels Ongole",
     "Vasu cabs Ongole",
     "Vasu taxi Ongole",
@@ -58,14 +57,14 @@ export const metadata: Metadata = {
   authors: [{ name: "Vasu Car Travels Ongole" }],
 
   alternates: {
-    canonical: "/", 
+    canonical: "/", // → https://cartravelsongole.in/
   },
 
   openGraph: {
     title:
-      "Ongole Car Rental | 24/7 Airport Taxi & AC Cabs – Vasu Car Travels",
+      "Ongole Taxi Service & Car Rentals – Vasu Car Travels Ongole | Airport Cabs, Outstation Trips & Local Rides",
     description:
-      "Vasu Car Travels offers Ongole car rental with driver, Ongole cabs and car travels for airport taxi, railway pickup, local rides and outstation trips. 24/7 AC cabs with trusted drivers from Ongole to Hyderabad, Tirupati, Vijayawada, Chennai, Bangalore and nearby towns and villages.",
+      "Vasu Car Travels Ongole provides Ongole taxi service, AC car rentals and airport cabs for local rides, village trips and outstation travel from Ongole to major cities.",
     url: "https://cartravelsongole.in/",
     siteName: "Vasu Car Travels Ongole",
     locale: "en_IN",
@@ -83,12 +82,11 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Ongole Car Rental | 24/7 Airport Taxi & AC Cabs – Vasu Car Travels",
+      "Ongole Taxi Service & Car Rentals – Vasu Car Travels Ongole | Airport Cabs & Outstation Trips",
     description:
-      "Book Ongole car rental with driver and Ongole cabs with Vasu Car Travels. 24/7 taxi, airport drop, railway pickup and outstation car travels from Ongole with clean AC cars and experienced drivers.",
+      "Book Ongole taxi and AC car rentals with Vasu Car Travels Ongole for airport drop, railway pickup, local city rides and outstation cab service.",
     images: ["/icon.png"],
   },
-
 
   icons: {
     icon: "/icon.png",
@@ -105,7 +103,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-white text-neutral-900 antialiased">
-
+        {/* TaxiService schema to help Google understand your business */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -114,11 +112,14 @@ export default function RootLayout({
               "@type": "TaxiService",
               name: "Vasu Car Travels Ongole",
               url: "https://cartravelsongole.in/",
-              telephone: "+91 8885553158", 
+              logo: "https://cartravelsongole.in/icon.png",
+              image: "https://cartravelsongole.in/icon.png",
+              telephone: "+91 8885553158",
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Ongole",
                 addressRegion: "Andhra Pradesh",
+                postalCode: "523001",
                 addressCountry: "IN",
               },
               areaServed: [
@@ -127,6 +128,7 @@ export default function RootLayout({
                 "Chirala",
                 "Andhra Pradesh",
               ],
+              sameAs: ["https://wa.me/918885553158"],
             }),
           }}
         />

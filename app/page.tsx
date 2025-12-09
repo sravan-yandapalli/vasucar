@@ -9,37 +9,9 @@ import Routes from "./components/Routes";
 import Fleet from "./components/Fleet";
 import CabPackagesOngolePage from "./components/rates";
 import Faq from "./components/Faq";
-import  TempleRoutesPage from "./temple-routes/page";
+import TempleRoutesPage from "./temple-routes/page";
 import CarBuySellSupportPage from "./buy-sell/page";
 import FloatingIcons from "./components/FloatingIcons";
-
-// LocalBusiness JSON-LD
-const businessSchema = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  name: "Vasu Car Travels Ongole",
-  url: "https://cartravelsongole.in/",
-  logo: "https://cartravelsongole.in/icon.png",
-  image: "https://cartravelsongole.in/icon.png",
-  description:
-    "Vasu Car Travels Ongole provides Ongole car rental, car rental with driver in Ongole and Ongole cabs & airport taxi service. We offer 24/7 AC cab booking and car travels in Ongole for local taxi rides, airport drop taxi from Ongole to Hyderabad Airport, railway station pickup and outstation cab service to Tirupati, Vijayawada, Chennai, Bangalore and nearby towns and villages.",
-  telephone: "+91-8885553158",
-  priceRange: "₹₹",
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "Ongole",
-    addressRegion: "Andhra Pradesh",
-    postalCode: "523001",
-    addressCountry: "IN",
-  },
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: 15.5057,
-    longitude: 80.0499,
-  },
-  openingHours: "Mo-Su 00:00-23:59",
-  sameAs: ["https://wa.me/918885553158"],
-};
 
 // FAQ JSON-LD
 const faqSchema = {
@@ -48,10 +20,10 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Is your Ongole car rental and taxi service available 24/7?",
+      name: "Is your Ongole car rental and taxi service available any time?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Vasu Car Travels Ongole offers 24/7 Ongole car rental with driver and taxi service in Ongole. You can book Ongole cabs for local travel, airport taxi, railway station pickup and outstation trips at any time.",
+        text: "Yes, Vasu Car Travels Ongole provides reliable taxi service and AC car rentals for local rides, airport drop, railway pickup and outstation travel.",
       },
     },
     {
@@ -59,15 +31,15 @@ const faqSchema = {
       name: "Do you provide airport taxi and outstation cabs from Ongole?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, we provide airport taxi from Ongole to Hyderabad Airport and outstation cabs from Ongole to Tirupati, Vijayawada, Chennai, Bangalore and many other cities and towns.",
+        text: "Yes, we offer airport taxi from Ongole to Hyderabad and outstation cabs to Tirupati, Vijayawada, Chennai, Bangalore and nearby villages.",
       },
     },
     {
       "@type": "Question",
-      name: "Which cars are available for car rental with driver in Ongole?",
+      name: "Which cars are available for taxi service in Ongole?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "For Ongole car rental with driver we offer clean AC sedans, hatchbacks and spacious SUVs that are ideal for family trips, functions, office travel, temple visits and long-distance journeys from Ongole to villages and cities.",
+        text: "We provide clean AC sedans, hatchbacks and SUVs suitable for family trips, functions, office travel, temple visits and long-distance journeys.",
       },
     },
   ],
@@ -89,13 +61,7 @@ const sitelinksSchema = {
 export default function Home() {
   return (
     <>
-      {/* JSON-LD SEO: Local Business, FAQ, Sitelinks */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(businessSchema),
-        }}
-      />
+      {/* JSON-LD SEO: FAQ + Sitelinks */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -111,8 +77,15 @@ export default function Home() {
 
       <main>
         <Navbar />
+
+        {/* ⭐ Strong SEO H1 line for Google */}
+        <h1 className="text-2xl font-semibold text-center mt-4">
+          Reliable Ongole Taxi Service & Car Rentals – Vasu Car Travels
+        </h1>
+
         <Hero />
-        <TempleRoutesPage/>
+
+        <TempleRoutesPage />
         <Why />
         <CabPackagesOngolePage />
         <Service />
