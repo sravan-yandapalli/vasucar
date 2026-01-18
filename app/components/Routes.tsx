@@ -79,7 +79,7 @@ export default function Routes(): JSX.Element {
                   </span>
 
                   <a
-                    href="tel:+918885553158"
+                    href="tel:+919400380489"
                     className="ml-1 md:ml-2 inline-flex items-center px-3 py-1 rounded-full bg-[#f80000] text-white font-semibold text-[11px] shadow hover:bg-red-600 transition-colors"
                   >
                     Call to Book

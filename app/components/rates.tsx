@@ -43,7 +43,7 @@ export default function CabPackagesOngolePage(): JSX.Element {
 
             <div className="flex flex-wrap gap-3 md:gap-4">
               <a
-                href="tel:+918885553158"
+                href="tel:+919400380489"
                 className="inline-flex items-center justify-center px-5 py-3 rounded-xl text-sm md:text-base font-semibold bg-red-500 text-white shadow-lg hover:bg-red-400 transition"
               >
                 📞 Call to Book

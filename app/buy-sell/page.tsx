@@ -66,7 +66,7 @@ export default function CarBuySellSupportPage(): JSX.Element {
             {/* CTA buttons */}
             <div className="flex flex-wrap gap-3 md:gap-4">
               <a
-                href="tel:+918885553158"
+                href="tel:+919400380489"
                 className="inline-flex items-center justify-center px-5 py-3 rounded-xl text-sm md:text-base font-semibold bg-red-500 text-white shadow-lg shadow-red-600/40 hover:bg-red-400 hover:scale-105 transition"
               >
                 📞 Call Vasu Car Travels
@@ -212,7 +212,7 @@ export default function CarBuySellSupportPage(): JSX.Element {
 
           <div className="flex flex-wrap gap-3">
             <a
-              href="tel:+918885553158"
+              href="tel:+919400380489"
               className="inline-flex items-center justify-center px-4 py-2 rounded-lg text-xs md:text-sm font-semibold bg-red-500 text-white shadow hover:bg-red-400 transition"
             >
               📞 Call Now

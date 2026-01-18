@@ -36,7 +36,7 @@ export default function ServicesPage(): JSX.Element {
           </div>
         </section>
 
-        {/* Reuse your Service cards section */}
+
         <Service />
         <CabPackagesOngolePage/>
       </main>

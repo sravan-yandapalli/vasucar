@@ -30,7 +30,7 @@ const contactSchema = {
   "@type": "LocalBusiness",
   name: "Vasu Car Travels Ongole",
   url: "https://cartravelsongole.in/contact",
-  telephone: "+91-8885553158",
+  telephone: "+91-9400380489",
   description:
     "24/7 AC taxi, airport transfer and outstation cab service in Ongole, Andhra Pradesh.",
   address: {
@@ -42,7 +42,7 @@ const contactSchema = {
   },
   contactPoint: {
     "@type": "ContactPoint",
-    telephone: "+91-8885553158",
+    telephone: "+91-9400380489",
     contactType: "customer booking support",
     areaServed: "Ongole, Prakasam district, Andhra Pradesh",
     availableLanguage: ["English", "Telugu"],
@@ -81,7 +81,7 @@ export default function ContactPage(): JSX.Element {
 
             <div className="mt-6 grid gap-4 sm:grid-cols-2 max-w-md">
               <a
-                href="tel:+917075367929"
+                href="tel:+919400380489"
                 className="flex items-center justify-center gap-2 rounded-xl bg-[#f1bc00d6] px-4 py-3 text-sm font-semibold shadow-md"
                 aria-label="Call Vasu Car Travels Ongole"
               >
@@ -90,7 +90,7 @@ export default function ContactPage(): JSX.Element {
                   alt="Call"
                   className="w-5 h-5 object-contain"
                 />
-                <span>Call Now: +91 8885553158</span>
+                <span>Call Now: +91 9400380489</span>
               </a>
 
               <a

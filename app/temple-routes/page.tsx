@@ -67,7 +67,7 @@ export default function TempleRoutesPage(): JSX.Element {
         </a>
 
         <a
-          href="tel:+918885553158"
+          href="tel:+919400380489"
           className="bg-blue-600 p-3 rounded-full shadow-lg hover:scale-110 transition"
           aria-label="Call Vasu Car Travels Ongole"
         >

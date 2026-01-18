@@ -6,17 +6,25 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   metadataBase: new URL("https://cartravelsongole.in"),
 
+ 
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
+
+
   title: {
-    // Main SEO title (homepage)
     default:
       "Ongole Taxi Service & Car Rentals – Vasu Car Travels Ongole | Airport Cabs, Outstation Trips & Local Rides",
-    // Used by other pages if they set their own title
     template:
       "%s | Ongole Taxi & Car Rentals – Vasu Car Travels Ongole",
   },
 
+
   description:
     "Ongole taxi and car rental service by Vasu Car Travels Ongole. Book AC cabs for airport drop, railway pickup, local city rides, village trips and outstation travel from Ongole.",
+
 
   keywords: [
     "Ongole car rental",
@@ -33,38 +41,26 @@ export const metadata: Metadata = {
     "Outstation taxi Ongole",
     "Outstation car rental Ongole",
     "Ongole cab booking",
-    "Cabs available in Ongole",
-    "Nearest cab Ongole",
     "24/7 cab service Ongole",
     "Railway station taxi Ongole",
     "Temple trip car Ongole",
     "Village taxi booking Ongole",
-
     "Vasu Car Travels Ongole",
-    "Vasu cabs Ongole",
-    "Vasu taxi Ongole",
-    "AC cab service Ongole",
-    "Best cab service Ongole",
-    "Family car travels Ongole",
-    "Wedding car rentals Ongole",
-    "Function car bookings Ongole",
-    "Car travels in Prakasam district",
-    "Taxi service Prakasam district",
-    "Cab booking near me Ongole",
-    "Cab service near Chirala",
   ],
 
   authors: [{ name: "Vasu Car Travels Ongole" }],
 
+
   alternates: {
-    canonical: "/", // → https://cartravelsongole.in/
+    canonical: "/",
   },
+
 
   openGraph: {
     title:
       "Ongole Taxi Service & Car Rentals – Vasu Car Travels Ongole | Airport Cabs, Outstation Trips & Local Rides",
     description:
-      "Vasu Car Travels Ongole provides Ongole taxi service, AC car rentals and airport cabs for local rides, village trips and outstation travel from Ongole to major cities.",
+      "Vasu Car Travels Ongole provides Ongole taxi service, AC car rentals and airport cabs for local rides, village trips and outstation travel from Ongole.",
     url: "https://cartravelsongole.in/",
     siteName: "Vasu Car Travels Ongole",
     locale: "en_IN",
@@ -79,6 +75,7 @@ export const metadata: Metadata = {
     ],
   },
 
+
   twitter: {
     card: "summary_large_image",
     title:
@@ -87,7 +84,6 @@ export const metadata: Metadata = {
       "Book Ongole taxi and AC car rentals with Vasu Car Travels Ongole for airport drop, railway pickup, local city rides and outstation cab service.",
     images: ["/icon.png"],
   },
-
 };
 
 export default function RootLayout({
@@ -98,7 +94,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-white text-neutral-900 antialiased">
-        {/* TaxiService schema to help Google understand your business */}
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -109,7 +105,7 @@ export default function RootLayout({
               url: "https://cartravelsongole.in/",
               logo: "https://cartravelsongole.in/icon.png",
               image: "https://cartravelsongole.in/icon.png",
-              telephone: "+91 8885553158",
+              telephone: "+91 94903 69489",
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Ongole",

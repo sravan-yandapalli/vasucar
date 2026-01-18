@@ -104,7 +104,7 @@ export default function Footer(): JSX.Element {
               <li className="flex items-center gap-3">
                 <span className="text-lg" aria-hidden="true">📞</span>
                 <a
-                  href={`tel:+918885553158`}
+                  href={`tel:+919400380489`}
                   className="text-left"
                   aria-label="Call Vasu Car Travels Ongole Now"
                 >
@@ -113,7 +113,7 @@ export default function Footer(): JSX.Element {
                       Call Now
                     </span>
                     <span className="text-base font-bold text-white leading-tight">
-                      88855 53158
+                      94003 80489
                     </span>
                   </div>
                 </a>

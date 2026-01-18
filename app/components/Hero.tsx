@@ -65,7 +65,7 @@ export default function Hero(): JSX.Element {
 
             <div className="mt-7 flex gap-4">
               <a
-                href="tel:+918885553158"
+                href="tel:+919400380489"
                 className="relative inline-flex items-center justify-center w-[221px] h-[54px] rounded-[10px] bg-[#f1bc00d6] text-sm text-center font-medium"
                 aria-label="Call Vasu Car Travels Ongole for instant cab booking"
               >
@@ -174,7 +174,7 @@ export default function Hero(): JSX.Element {
             {/* Buttons */}
             <div className="mt-4 flex flex-col sm:flex-row gap-2">
               <a
-                href="tel:+918885553158"
+                href="tel:+919400380489"
                 className="w-full sm:w-auto px-4 py-2.5 rounded-[10px] bg-[#f1bc00d6] flex items-center justify-center gap-2 text-xs font-medium shadow-md"
                 aria-label="Call Vasu Car Travels Ongole for instant cab booking"
               >
