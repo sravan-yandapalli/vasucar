@@ -66,14 +66,14 @@ export default function CarBuySellSupportPage(): JSX.Element {
             {/* CTA buttons */}
             <div className="flex flex-wrap gap-3 md:gap-4">
               <a
-                href="tel:+919400380489"
+                href="tel:+919490369489"
                 className="inline-flex items-center justify-center px-5 py-3 rounded-xl text-sm md:text-base font-semibold bg-red-500 text-white shadow-lg shadow-red-600/40 hover:bg-red-400 hover:scale-105 transition"
               >
                 📞 Call Vasu Car Travels
               </a>
 
               <a
-                href="https://wa.me/918885553158?text=Hi%20Vasu%20Car%20Travels%2C%20I%20need%20help%20to%20buy%20or%20sell%20a%20used%20car%20in%20Ongole.%20Please%20share%20details."
+                href="https://wa.me/919490369489?text=Hi%20Vasu%20Car%20Travels%2C%20I%20need%20help%20to%20buy%20or%20sell%20a%20used%20car%20in%20Ongole.%20Please%20share%20details."
                 className="inline-flex items-center justify-center px-5 py-3 rounded-xl text-sm md:text-base font-semibold bg-emerald-500 text-black shadow-lg shadow-emerald-600/40 hover:bg-emerald-400 hover:scale-105 transition"
               >
                 💬 WhatsApp for Car Buy/Sell
@@ -212,13 +212,13 @@ export default function CarBuySellSupportPage(): JSX.Element {
 
           <div className="flex flex-wrap gap-3">
             <a
-              href="tel:+919400380489"
+              href="tel:+919490369489"
               className="inline-flex items-center justify-center px-4 py-2 rounded-lg text-xs md:text-sm font-semibold bg-red-500 text-white shadow hover:bg-red-400 transition"
             >
               📞 Call Now
             </a>
             <a
-              href="https://wa.me/918885553158?text=Hi%20Vasu%20Car%20Travels%2C%20I%20need%20help%20to%20buy%20or%20sell%20a%20used%20car%20in%20Ongole.%20Please%20guide%20me%20with%20next%20steps."
+              href="https://wa.me/919490369489?text=Hi%20Vasu%20Car%20Travels%2C%20I%20need%20help%20to%20buy%20or%20sell%20a%20used%20car%20in%20Ongole.%20Please%20guide%20me%20with%20next%20steps."
               className="inline-flex items-center justify-center px-4 py-2 rounded-lg text-xs md:text-sm font-semibold bg-emerald-500 text-black shadow hover:bg-emerald-400 transition"
             >
               💬 WhatsApp Us

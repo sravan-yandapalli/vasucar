@@ -42,7 +42,7 @@ const contactSchema = {
   },
   contactPoint: {
     "@type": "ContactPoint",
-    telephone: "+91-9400380489",
+    telephone: "+91-9490369489",
     contactType: "customer booking support",
     areaServed: "Ongole, Prakasam district, Andhra Pradesh",
     availableLanguage: ["English", "Telugu"],
@@ -90,11 +90,11 @@ export default function ContactPage(): JSX.Element {
                   alt="Call"
                   className="w-5 h-5 object-contain"
                 />
-                <span>Call Now: +91 9400380489</span>
+                <span>Call Now: +91 9490369489</span>
               </a>
 
               <a
-                href="https://wa.me/918885553158"
+                href="https://wa.me/919490369489"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 rounded-xl bg-[#f80000] px-4 py-3 text-sm font-semibold text-white shadow-md"

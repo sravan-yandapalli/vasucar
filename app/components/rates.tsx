@@ -43,13 +43,13 @@ export default function CabPackagesOngolePage(): JSX.Element {
 
             <div className="flex flex-wrap gap-3 md:gap-4">
               <a
-                href="tel:+919400380489"
+                href="tel:+919490369489"
                 className="inline-flex items-center justify-center px-5 py-3 rounded-xl text-sm md:text-base font-semibold bg-red-500 text-white shadow-lg hover:bg-red-400 transition"
               >
                 📞 Call to Book
               </a>
               <a
-                href="https://wa.me/918885553158"
+                href="https://wa.me/919490369489"
                 className="inline-flex items-center justify-center px-5 py-3 rounded-xl text-sm md:text-base font-semibold bg-emerald-500 text-black shadow-lg hover:bg-emerald-400 transition"
               >
                 💬 WhatsApp for Packages
@@ -145,7 +145,7 @@ export default function CabPackagesOngolePage(): JSX.Element {
             </ul>
 
             <a
-              href="https://wa.me/918885553158"
+              href="https://wa.me/919490369489"
               className="inline-flex items-center justify-center px-4 py-2 rounded-lg text-sm font-semibold bg-red-500 text-white hover:bg-red-400 transition"
             >
               💬 Get Exact Outstation Quote

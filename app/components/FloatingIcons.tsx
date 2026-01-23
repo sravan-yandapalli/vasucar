@@ -7,7 +7,7 @@ export default function FloatingIcons() {
       
       {/* WhatsApp */}
       <a
-        href="https://wa.me/918885553158"
+        href="https://wa.me/919490369489"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-green-500 p-3 rounded-full shadow-lg hover:scale-110 transition"
@@ -18,7 +18,7 @@ export default function FloatingIcons() {
 
       {/* Phone Call */}
       <a
-        href="tel:+919400380489"
+        href="tel:+919490369489"
         className="bg-blue-600 p-3 rounded-full shadow-lg hover:scale-110 transition"
         aria-label="Call Vasu Car Travels Ongole"
       >

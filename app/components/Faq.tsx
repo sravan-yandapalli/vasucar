@@ -22,7 +22,7 @@ const faqs: FAQItem[] = [
           <li>
             Message us on{" "}
             <a
-              href="https://wa.me/918885553158?text=Hi%20Vasu%20Car%20Travels%2C%20I%20want%20to%20book%20a%20cab%20from%20Ongole.%20Please%20share%20details."
+              href="https://wa.me/919490369489?text=Hi%20Vasu%20Car%20Travels%2C%20I%20want%20to%20book%20a%20cab%20from%20Ongole.%20Please%20share%20details."
               className="text-green-400 underline underline-offset-4"
               target="_blank"
               rel="noopener noreferrer"
@@ -157,14 +157,14 @@ export default function Faq() {
         <div className="mt-10 text-center text-zinc-300 text-sm">
           Still have a question?{" "}
           <a
-            href="tel:+919400380489"
+            href="tel:+919490369489"
             className="font-semibold text-red-400 hover:text-red-300 underline underline-offset-4"
           >
             Call 88855 53158
           </a>{" "}
           or{" "}
           <a
-            href="https://wa.me/918885553158?text=Hi%20Vasu%20Car%20Travels%2C%20I%20have%20a%20question%20about%20your%20cab%20service%20from%20Ongole."
+            href="https://wa.me/919490369489?text=Hi%20Vasu%20Car%20Travels%2C%20I%20have%20a%20question%20about%20your%20cab%20service%20from%20Ongole."
             className="font-semibold text-green-400 hover:text-green-300 underline underline-offset-4"
             target="_blank"
             rel="noopener noreferrer"

@@ -13,7 +13,7 @@ export default function Footer(): JSX.Element {
     console.log("Navigated using footer link");
   };
 
-  const WHATSAPP_NUMBER = "918885553158"; // main WhatsApp number
+  const WHATSAPP_NUMBER = "919490369489"; // main WhatsApp number
 
   const COMMON_MESSAGE =
     "Hi Vasu Car Travels, I want to know more about your car buying, selling and rental services from Ongole. Please share details.";
@@ -104,7 +104,7 @@ export default function Footer(): JSX.Element {
               <li className="flex items-center gap-3">
                 <span className="text-lg" aria-hidden="true">📞</span>
                 <a
-                  href={`tel:+919400380489`}
+                  href={`tel:+919490369489`}
                   className="text-left"
                   aria-label="Call Vasu Car Travels Ongole Now"
                 >
@@ -113,7 +113,7 @@ export default function Footer(): JSX.Element {
                       Call Now
                     </span>
                     <span className="text-base font-bold text-white leading-tight">
-                      94003 80489
+                      94903 69489
                     </span>
                   </div>
                 </a>

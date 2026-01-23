@@ -119,7 +119,7 @@ export default function RootLayout({
                 "Chirala",
                 "Andhra Pradesh",
               ],
-              sameAs: ["https://wa.me/918885553158"],
+              sameAs: ["https://wa.me/919490369489"],
             }),
           }}
         />

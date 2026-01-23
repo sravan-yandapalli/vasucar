@@ -96,7 +96,7 @@ export default function Navbar(): JSX.Element {
         <div className="flex items-center justify-end gap-3 shrink-0">
           {/* CALL NOW (DESKTOP ONLY) */}
           <a
-            href="tel:+919400380489"
+            href="tel:+919490369489"
             className="hidden md:flex items-center gap-3 rounded-2xl bg-[#f80000] px-5 py-3 text-white font-bold text-[18px] shadow-md hover:bg-red-700 transition"
           >
             <img src="/call.svg" alt="Call icon" className="h-6 w-6" />

@@ -57,7 +57,7 @@ export default function TempleRoutesPage(): JSX.Element {
       {/* Floating Icons */}
       <div className="fixed bottom-6 right-6 flex flex-col gap-4 z-50">
         <a
-          href="https://wa.me/918885553158"
+          href="https://wa.me/919490369489"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 p-3 rounded-full shadow-lg hover:scale-110 transition"
@@ -67,7 +67,7 @@ export default function TempleRoutesPage(): JSX.Element {
         </a>
 
         <a
-          href="tel:+919400380489"
+          href="tel:+919490369489"
           className="bg-blue-600 p-3 rounded-full shadow-lg hover:scale-110 transition"
           aria-label="Call Vasu Car Travels Ongole"
         >
@@ -116,7 +116,7 @@ export default function TempleRoutesPage(): JSX.Element {
             <button
               onClick={() =>
                 window.open(
-                  "https://wa.me/918885553158?text=" +
+                  "https://wa.me/919490369489?text=" +
                     encodeURIComponent(`Hi, I want to book a cab for ${slide.title}`),
                   "_blank"
                 )
