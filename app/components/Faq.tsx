@@ -17,7 +17,7 @@ const faqs: FAQItem[] = [
           <li>Fill the booking form on our website</li>
           <li>
             Call us anytime at{" "}
-            <strong className="text-white">94003 80489</strong>
+            <strong className="text-white">94903 69489</strong>
           </li>
           <li>
             Message us on{" "}
@@ -160,7 +160,7 @@ export default function Faq() {
             href="tel:+919490369489"
             className="font-semibold text-red-400 hover:text-red-300 underline underline-offset-4"
           >
-            Call 88855 53158
+            Call 94903 69489
           </a>{" "}
           or{" "}
           <a
