@@ -2,17 +2,16 @@
 import "./globals.css";
 import type { JSX, ReactNode } from "react";
 import type { Metadata } from "next";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://cartravelsongole.in"),
 
- 
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
     apple: "/favicon.ico",
   },
-
 
   title: {
     default:
@@ -21,10 +20,8 @@ export const metadata: Metadata = {
       "%s | Ongole Taxi & Car Rentals – Vasu Car Travels Ongole",
   },
 
-
   description:
     "Ongole taxi and car rental service by Vasu Car Travels Ongole. Book AC cabs for airport drop, railway pickup, local city rides, village trips and outstation travel from Ongole.",
-
 
   keywords: [
     "Ongole car rental",
@@ -50,11 +47,9 @@ export const metadata: Metadata = {
 
   authors: [{ name: "Vasu Car Travels Ongole" }],
 
-
   alternates: {
     canonical: "/",
   },
-
 
   openGraph: {
     title:
@@ -75,7 +70,6 @@ export const metadata: Metadata = {
     ],
   },
 
-
   twitter: {
     card: "summary_large_image",
     title:
@@ -93,8 +87,24 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body className="bg-white text-neutral-900 antialiased">
+      <head>
+        {/* Google Ads Global Site Tag */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17863109664"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17863109664');
+          `}
+        </Script>
+      </head>
 
+      <body className="bg-white text-neutral-900 antialiased">
+        {/* Structured Data */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -123,6 +133,7 @@ export default function RootLayout({
             }),
           }}
         />
+
         {children}
       </body>
     </html>
